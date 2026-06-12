@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adobe Podcast Bulk Download — Download All Enhance Speech Files at Once</title>
+  <meta name="description" content="Download all your Adobe Podcast / Enhance Speech files at once with one click. A Chrome extension that adds bulk download to Adobe Enhance Speech — original filenames, progress bar, no clicking one by one." />
+  <meta name="keywords" content="adobe podcast bulk download, download all adobe enhance speech files, adobe podcast download multiple files at once, adobe enhance speech batch download, how to download all files from adobe podcast" />
+  <link rel="canonical" href="https://pfehringer4.github.io/adobe-podcast-bulk-download-site/" />
+  <meta property="og:title" content="Adobe Podcast Bulk Download — all Enhance Speech files in one click" />
+  <meta property="og:description" content="Stop downloading Adobe Enhance Speech files one by one. One click downloads them all." />
+  <meta property="og:type" content="website" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "How do I download all files from Adobe Podcast at once?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Install the Bulk Download for Adobe Podcast Chrome extension, open Enhance Speech, and click 'Download all'. Every enhanced file downloads with its original filename." } },
+      { "@type": "Question", "name": "Can you batch download from Adobe Enhance Speech?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Adobe only supports downloading one file at a time, but this extension adds a Download all button that downloads the whole batch in one click." } },
+      { "@type": "Question", "name": "Does it bypass Adobe's download limits?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No. It only automates the clicking using your own signed-in session and your own files. It does not bypass any Adobe limits." } }
+    ]
+  }
+  </script>
+  <style>
+    :root{--red:#d7263d;--ink:#15171a;--muted:#5b636e;--line:#e7e9ee;--bg:#fff}
+    *{box-sizing:border-box}
+    body{margin:0;font:17px/1.6 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+    .wrap{max-width:760px;margin:0 auto;padding:0 20px}
+    header{padding:64px 0 28px;text-align:center}
+    h1{font-size:40px;line-height:1.15;margin:0 0 14px;letter-spacing:-.02em}
+    h1 em{color:var(--red);font-style:normal}
+    .sub{font-size:20px;color:var(--muted);margin:0 auto 28px;max-width:560px}
+    .cta{display:inline-flex;align-items:center;gap:10px;background:var(--red);color:#fff;
+      text-decoration:none;font-weight:700;padding:15px 26px;border-radius:12px;font-size:18px;
+      box-shadow:0 8px 24px rgba(215,38,61,.28)}
+    .cta:hover{background:#b91e31}
+    .price{display:block;margin-top:12px;color:var(--muted);font-size:15px}
+    .ba{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:48px 0}
+    .ba .col{border:1px solid var(--line);border-radius:14px;padding:20px}
+    .ba h3{margin:0 0 10px;font-size:15px;text-transform:uppercase;letter-spacing:.05em}
+    .ba .before h3{color:var(--muted)} .ba .after h3{color:var(--red)}
+    .ba ul{margin:0;padding-left:18px;color:var(--muted)}
+    .ba .after ul{color:var(--ink)}
+    .demo{border:1px solid var(--line);border-radius:14px;background:#fafbfc;
+      aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;color:var(--muted);
+      margin:8px 0 48px;font-size:15px}
+    h2{font-size:26px;margin:48px 0 16px;letter-spacing:-.01em}
+    details{border-bottom:1px solid var(--line);padding:16px 0}
+    summary{font-weight:600;cursor:pointer;font-size:18px}
+    details p{color:var(--muted);margin:10px 0 0}
+    .note{background:#fff7f8;border:1px solid #f6c9cf;border-radius:12px;padding:16px 18px;color:#7a2230;margin:24px 0}
+    footer{color:var(--muted);font-size:14px;text-align:center;padding:48px 0 64px;border-top:1px solid var(--line);margin-top:48px}
+    @media(max-width:560px){.ba{grid-template-columns:1fr}h1{font-size:30px}}
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <h1>Download <em>all</em> your Adobe Podcast files at once</h1>
+    <p class="sub">Adobe Enhance Speech lets you bulk-upload — but makes you download enhanced files <strong>one by one</strong>. This Chrome extension adds a <strong>Download all</strong> button. One click, original filenames, done.</p>
+    <a class="cta" href="https://chromewebstore.google.com/" rel="nofollow">⤓ Add to Chrome — free</a>
+    <span class="price">Free up to 5 files · Pro unlimited, one-time €39</span>
+  </header>
+
+  <main class="wrap">
+    <section class="ba">
+      <div class="col before">
+        <h3>Before</h3>
+        <ul>
+          <li>40 files = 40 clicks</li>
+          <li>Wait, click, repeat… for half an hour</li>
+          <li>Lose track of which you already saved</li>
+          <li>"I'm spending half the day just downloading"</li>
+        </ul>
+      </div>
+      <div class="col after">
+        <h3>After</h3>
+        <ul>
+          <li>One "Download all (40)" click</li>
+          <li>Original filenames, kept intact</li>
+          <li>Progress bar + auto-retry on Adobe's "still checking"</li>
+          <li>Back to editing in seconds</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="demo">▶ Demo: 40 files → one click (GIF goes here)</div>
+
+    <h2>How to bulk download from Adobe Podcast</h2>
+    <p>Install the extension, open <strong>podcast.adobe.com → Enhance Speech</strong>, and a
+    <strong>Download all (N)</strong> button appears. Click it. Every completed enhanced file
+    downloads to your computer with its original name — no clicking one at a time.</p>
+
+    <div class="note">It automates the <em>clicking</em>, not Adobe's limits. Your files, your
+    signed-in session, fewer clicks. No credentials stored, nothing sent to our servers.</div>
+
+    <h2>FAQ</h2>
+    <details open><summary>How do I download all files from Adobe Podcast at once?</summary>
+      <p>Install this extension, open Enhance Speech, click "Download all". The whole batch saves in one go.</p></details>
+    <details><summary>Can you batch download from Adobe Enhance Speech?</summary>
+      <p>Adobe itself only supports one-at-a-time downloads. This extension adds the missing bulk/batch download.</p></details>
+    <details><summary>Does it work for hundreds of files?</summary>
+      <p>Yes — it downloads each enhanced file in turn with original filenames, progress, and auto-retry, so large batches just run on their own.</p></details>
+    <details><summary>Does it bypass Adobe's download limits?</summary>
+      <p>No. It only reduces clicks on your own files in your own session. It does not bypass any limits.</p></details>
+    <details><summary>Is my data safe?</summary>
+      <p>Everything runs locally. No credentials stored, no files sent anywhere. See the privacy policy.</p></details>
+
+    <!-- ▼ Stripe activation needs these visible: pricing, refunds, contact, legal. Edit the policy text to taste. -->
+    <h2 id="pricing">Pricing &amp; refunds</h2>
+    <p><strong>Free:</strong> up to 5 files per run. <strong>Pro:</strong> one-time <strong>€39</strong>
+    for unlimited downloads — no subscription, billed once. Payment is processed securely by
+    Stripe via ExtensionPay; we never see your card details.</p>
+    <p><strong>Refund policy:</strong> If the extension doesn't work for you, email us within
+    <strong>14 days</strong> of purchase for a full refund. <em>(Editable — set your own terms.)</em></p>
+
+    <h2 id="support">Support &amp; contact</h2>
+    <p>Questions, refunds, or bug reports: <a href="mailto:pfehringer4@gmail.com">pfehringer4@gmail.com</a>.
+    We typically reply within 1–2 business days.</p>
+
+    <h2 id="legal">Legal</h2>
+    <p><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a> ·
+    Seller: <em>[your name / business name]</em>. Not affiliated with or endorsed by Adobe Inc.
+    "Adobe Podcast" and "Enhance Speech" are trademarks of Adobe.</p>
+  </main>
+
+  <footer class="wrap">
+    Bulk Download for Adobe Podcast — Enhance Speech · €39 one-time ·
+    <a href="#pricing">Pricing</a> · <a href="#support">Support</a> ·
+    <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a><br>
+    Not affiliated with Adobe Inc.
+  </footer>
+</body>
+</html>

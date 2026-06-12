@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Bulk Download for Adobe Podcast</title>
+  <meta name="robots" content="all" />
+  <style>
+    body{max-width:720px;margin:0 auto;padding:40px 20px;font:16px/1.65 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#15171a}
+    h1{font-size:28px} h2{font-size:18px;margin-top:32px} a{color:#d7263d}
+    .muted{color:#5b636e;font-size:14px}
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="muted">Last updated: 2026-06-12</p>
+  <p>This extension is built to be privacy-clean by design.</p>
+
+  <h2>What it does</h2>
+  <p>It adds a "Download all" button to the Adobe Podcast / Enhance Speech web app so you can
+  download <strong>your own</strong> enhanced files in one click instead of one at a time.</p>
+
+  <h2>What data it touches</h2>
+  <ul>
+    <li><strong>Your Adobe files:</strong> it reads the file list of your current Enhance Speech
+    session — using the session you are already signed into — and only ever touches your own,
+    authenticated files.</li>
+    <li><strong>Settings:</strong> your rename-pattern preference is stored locally in
+    <code>chrome.storage</code> on your device.</li>
+  </ul>
+
+  <h2>What it does NOT do</h2>
+  <ul>
+    <li>It does <strong>not</strong> store your Adobe credentials.</li>
+    <li>It does <strong>not</strong> send your files, file contents, or browsing data to any server we operate.</li>
+    <li>It does <strong>not</strong> bypass Adobe's download limits — it automates clicking, nothing else.</li>
+    <li>It does <strong>not</strong> track you.</li>
+  </ul>
+
+  <h2>Payment</h2>
+  <p>Pro is a one-time purchase handled by <strong>ExtensionPay (Stripe)</strong>. The only thing that
+  leaves your browser is an anonymous license check confirming whether you have paid. Card details are
+  handled entirely by ExtensionPay/Stripe and are never seen by this extension.</p>
+
+  <h2>Permissions, and why</h2>
+  <ul>
+    <li><code>downloads</code> — to save your files to disk.</li>
+    <li><code>storage</code> — to remember your settings and license status.</li>
+    <li><code>scripting</code> / <code>activeTab</code> / <code>tabs</code> — to detect files on the active Adobe tab.</li>
+    <li>host access to <code>adobe.com</code> — so the button can appear on Enhance Speech.</li>
+    <li>host access to <code>extensionpay.com</code> — for the license/payment check.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>Questions: <a href="mailto:pfehringer4@gmail.com">pfehringer4@gmail.com</a></p>
+
+  <p class="muted"><a href="index.html">← Back to home</a> · Not affiliated with Adobe Inc.</p>
+</body>
+</html>
