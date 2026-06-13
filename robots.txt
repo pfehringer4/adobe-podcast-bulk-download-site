@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pfehringer4.github.io/adobe-podcast-bulk-download-site/sitemap.xml

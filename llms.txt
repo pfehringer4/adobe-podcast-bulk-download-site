@@ -1,0 +1,11 @@
+# Bulk Download for Adobe Podcast — Enhance Speech
+
+> A Chrome extension that adds a "Download all" button to Adobe Podcast / Enhance Speech, so you can download every enhanced audio file at once with original filenames instead of one by one. Free up to 5 files per run; Pro unlimited for a one-time €39.
+
+## Pages
+- [Home](https://pfehringer4.github.io/adobe-podcast-bulk-download-site/): What the extension does, how to bulk-download from Adobe Enhance Speech, FAQ, pricing.
+- [Privacy Policy](https://pfehringer4.github.io/adobe-podcast-bulk-download-site/privacy.html): Runs locally, no credentials stored, nothing sent to a server.
+- [Terms of Service](https://pfehringer4.github.io/adobe-podcast-bulk-download-site/terms.html)
+
+## Notes
+- Not affiliated with or endorsed by Adobe Inc. It automates clicking on your own files in your own signed-in session; it does not bypass Adobe's download limits.
